@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 // Import the mock API functions
 import { startSession, selectMenuItem } from '../services/api';
 // Import the UI components
-import TopicInput from '../components/TopicInput';
-import MenuList from '../components/MenuList';
+import TopicInput from './components/TopicInput.jsx';
+import MenuList from './components/MenuList.jsx';
 // Import CSS
 import './index.css';
 
