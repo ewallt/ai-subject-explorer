@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 // Import the mock API functions
-import { startSession, selectMenuItem } from '../services/api';
+import { startSession, selectMenuItem } from './services/api';
 // Import the UI components
-import TopicInput from '../components/TopicInput';
-import MenuList from '../components/MenuList';
+import TopicInput from './components/TopicInput.jsx';
+import MenuList from './components/MenuList.jsx';
 // Import CSS
 import './index.css';
 
@@ -87,7 +87,7 @@ function App() {
   return (
     <div className="container mx-auto p-4 max-w-2xl font-sans">
       <header className="text-center mb-6 border-b pb-4">
-        <h1 className="text-3xl font-bold text-blue-700">AI Subject Explorer</h1>
+        <h1 className="text-3xl font-bold text-blue-700">AI Subject Explorer Template</h1>
         {sessionId && (
              <button
                 onClick={handleReset}
