@@ -87,7 +87,7 @@ function App() {
   return (
     <div className="container mx-auto p-4 max-w-2xl font-sans">
       <header className="text-center mb-6 border-b pb-4">
-        <h1 className="text-3xl font-bold text-blue-700">AI Subject Explorer</h1>
+        <h1 className="text-3xl font-bold text-blue-700">AI Subject Explorer Test</h1>
         {sessionId && (
              <button
                 onClick={handleReset}
